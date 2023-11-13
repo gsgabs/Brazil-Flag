@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        #retangulo{
+            width: 900px;
+            height: 600px;
+            background-color: #16B83E;
+            border: 0.5rem solid #fff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        #losango{
+            width: 720px;
+            height: 450px;
+            background-color: #16B83E;
+            position: absolute;
+            top: 75px;
+            left:90px;
+        }
+
+        #losangoup {
+            height: 0;
+            width: 0;
+            border: 360px solid transparent;
+            border-bottom: 225px solid #FFE11F;
+            border-top: 0;
+            /* margin-left: 90px;
+            position: absolute;
+            top: 70px; */
+        }
+
+        #losangodown {
+            height: 0;
+            width: 0;
+            border: 360px solid transparent;
+            border-top: 225px solid #FFE11F;
+            border-bottom: 0;
+            /* margin-left: 90px;
+            position: absolute;
+            top: 300px; */
+        }
+
+        #circulo {
+            background-color: #1651B8;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            z-index: 2;
+            position: absolute;
+            top: 175px;
+            left: 325px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="retangulo">
+        <div id="losango">
+            <div id="losangoup"></div>
+            <div id="losangodown"></div>
+        </div>
+        <div id="circulo"></div>
+    </div>
+
+    
+    
+</body>
+</html>
